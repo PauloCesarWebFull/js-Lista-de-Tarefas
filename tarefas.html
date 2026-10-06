@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="flex justify-between items-center py-4 px-15 bg-purple-600">
+        <input type="text" placeholder="Pesquisar" class=" w-100 h-10 pl-4 rounded bg-white"/>
+        <button class="leading-10 bg-purple-800 rounded px-4 font-bold text-white duration-200 cursor-pointer hover:bg-purple-400 hover:text-black">Nova Tarefa</button>
+    </header>
+
+    <main class="p-15 bg-slate-200">
+        <h1 class="text-3x1 font-bold mb-6">Tarefas</h1>
+        <div id="tarefas" class="grid grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded-lg">
+                <h3 class="font-bold mb-4">Titulo do card</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laudantium necessitatibus incidunt cumque, illo deserunt autem, nisi accusantium quidem ab accusamus distinctio corporis vitae nostrum adipisci placeat atque voluptates quia.</p>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
